@@ -1,0 +1,39 @@
+@import '_variables.sass';
+@import '_nav.sass';
+@import '_banner.sass';
+@import '_carrusel.sass';
+@import '_clientes.sass';
+@import '_contactame.sass';
+
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+
+.contact
+	input::-webkit-input-placeholder {
+	color: $primario;
+	}
+	input:-moz-placeholder {
+	color: $primario;
+	}
+	input:-ms-input-placeholder {
+	color: $primario;
+	}
+
+	textarea::-webkit-input-placeholder {
+  color: red;
+	}
+	textarea:-moz-placeholder {
+	  color: red;
+	}
+	textarea:-ms-input-placeholder {
+	  color: red;
+	}
